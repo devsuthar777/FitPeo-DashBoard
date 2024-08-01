@@ -8,8 +8,8 @@ import profileDp from '../assests/jpgs/profileDp.jpg'
 const NavBar = () => {
   return (
     <div className='w-full flex h-14'>
-        <div className='w-[7%] h-full '><img ></img></div>
-        <div className='w-[98%] flex bg-richblack-700 items-center justify-between'>
+        <div className='w-[5%] h-full '><img ></img></div>
+        <div className='w-[95%] flex bg-richblack-700 items-center justify-between'>
             <div className='flex bg-richblack-500 h-8 items-center my-auto rounded-md gap-2'>
                 <CiSearch className='text-white my-2  text-2xl ml-2'/>
                 <input className='bg-transparent py-2 outline-none text-richblack-200' placeholder='Search'></input>

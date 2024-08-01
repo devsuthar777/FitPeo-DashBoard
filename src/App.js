@@ -10,7 +10,7 @@ function App() {
       <nav className='w-full'>
       <NavBar/>
       </nav>
-      <div>
+      <div className='w-full h-full'>
         <SideBar/>
         <DashBoardPage/>
       </div>
