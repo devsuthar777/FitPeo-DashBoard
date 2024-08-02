@@ -11,7 +11,7 @@ const OrderStatics = () => {
         {
           orderDetails.map((data,index) => 
 
-            <div className='w-48 h-32 bg-richblack-700 rounded-md flex flex-col relative' key={index}>
+            <div className='w-48 h-32 bg-richblack-800 rounded-md flex flex-col relative' key={index}>
                 <div className='py-2 px-2 bg-caribbeangreen-700 max-w-fit rounded-md my-2 ml-2'
                 ><TbShoppingBagCheck className='text-2xl'/></div>
                 <p className='text-sm font-bold text-richblack-50 px-2 mb-3'>{data.label}</p>

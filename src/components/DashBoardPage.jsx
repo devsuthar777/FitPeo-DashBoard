@@ -1,6 +1,10 @@
 import React from 'react'
 import OrderStatics from './dashBoardComponents/OrderStatics'
 import NetProfit from './dashBoardComponents/NetProfit'
+import ActivityGraph from './dashBoardComponents/ActivityGraph'
+import Tasks from './dashBoardComponents/Tasks'
+import RecentOrders from './dashBoardComponents/RecentOrders'
+import CustomerFeedback from './dashBoardComponents/CustomerFeedback'
 
 const DashBoardPage = () => {
   return (
@@ -9,6 +13,15 @@ const DashBoardPage = () => {
         <div className='flex gap-5 w-full'>
             <OrderStatics></OrderStatics>
             <NetProfit></NetProfit>
+        </div>
+        <div className='flex gap-5 w-full'>
+            <ActivityGraph></ActivityGraph>
+            <Tasks></Tasks>
+        </div>
+
+        <div className='flex gap-5 w-full h-96'>
+            <RecentOrders></RecentOrders>
+            <CustomerFeedback></CustomerFeedback>
         </div>
     </div>
   )
