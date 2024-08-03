@@ -5,7 +5,7 @@ import { BiDish } from "react-icons/bi";
 import { IoIosArrowForward } from "react-icons/io";
 const Tasks = () => {
   return (
-    <div  className='w-[35%] bg-richblack-800 h-60 rounded-md '>
+    <div  className='md:w-[35%] w-full bg-richblack-800 h-60 rounded-md '>
       <ul className='flex flex-col gap-2 px-9 my-auto'>
         <li className='flex items-center my-2 justify-between'>
           <div className='flex items-center'>

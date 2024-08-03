@@ -4,7 +4,7 @@ import { MdArrowDropUp } from 'react-icons/md'
 const NetProfit = () => {
   return (
     <div
-    className='w-[35%] bg-richblack-800 rounded-md flex flex-col justify-between px-2 relative'
+    className='md:w-[35%] w-full bg-richblack-800 h-32 flex flex-col justify-between px-2 relative'
     >
       <p className='text-sm text-richblack-100 py-2'>Net Profit</p>
       <p className='text-4xl text-white font-bold'>$6759.25</p>

@@ -10,7 +10,7 @@ const ActivityGraph = () => {
     }
     const [graphValuess,setGraphValues] = useState(graphValues);
   return (
-    <div className='w-[65%] bg-richblack-800 h-60 rounded-md px-4 py-2 '>
+    <div className='md:w-[65%] w-full bg-richblack-800 h-60 rounded-md px-4 py-2 overflow-hidden'>
         <div className='w-full flex justify-between'>
             <p className='text-xl font-semibold text-white'>Activity</p>
             <p className='bg-richblack-600 hover:cursor-pointer shadow-sm rounded-xl text-black text-sm text-center px-3 py-1 flex items-center'>
@@ -35,10 +35,10 @@ const ActivityGraph = () => {
                     </li>)
                 }
             </ul>
-            <ul className='flex absolute left-14 top-5 justify-between gap-3  h-[60%] place-items-end'>
+            <ul className='flex absolute left-14 top-5 justify-between w-[90%] overflow-hidden md:gap-4 gap-2    h-[60%] place-items-end  '>
                 {
                     graphValuess.map((data) => 
-                        <li key={data} className={`w-[22px]  bg-blue-200 rounded-2xl`} style={{height: `${data}%` }}> </li>
+                        <li key={data} className={`w-[10%]  bg-blue-200 rounded-2xl`} style={{height: `${data}%` }}> </li>
                     )
                 }
             </ul>

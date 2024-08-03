@@ -9,17 +9,17 @@ import CustomerFeedback from './dashBoardComponents/CustomerFeedback'
 const DashBoardPage = () => {
   return (
     <div className='w-[92%] h-full mx-auto mt-2 '>
-        <h1 className='font-bold text-white text-2xl py-2'>Dashbord</h1>
-        <div className='flex gap-5 w-full'>
+        <h1 className='font-bold text-white text-2xl py-2 mx-auto w-full md:text-left text-center'>Dashbord</h1>
+        <div className='flex gap-5 w-full md:flex-row flex-col  items-center '>
             <OrderStatics></OrderStatics>
             <NetProfit></NetProfit>
         </div>
-        <div className='flex gap-5 w-full my-4'>
+        <div className='flex gap-5 w-full my-4 md:flex-row flex-col'>
             <ActivityGraph></ActivityGraph>
             <Tasks></Tasks>
         </div>
 
-        <div className='flex gap-5 w-full h-96 mb-10'>
+        <div className='flex md:flex-row flex-col gap-5 w-full h-full mb-10'>
             <RecentOrders></RecentOrders>
             <CustomerFeedback></CustomerFeedback>
         </div>
