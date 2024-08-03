@@ -21,7 +21,7 @@ const RecentOrders = () => {
                           <p className='w-[35%] flex items-center'><img className="rounded-full w-7 mx-1 " src={`https://randomuser.me/api/portraits/thumb/men/5${index}.jpg`} alt="img"></img><span className='px-2'>{data.name}</span></p>
                           <p className='w-[25%]'>{Math.round((Math.random()*100000))}</p>
                           <p className='w-[25%]'>{(Math.random()*500).toFixed(2)}$</p>
-                          <p className='w-[15%]'>{data.status}</p>
+                          <p className={`w-[15%] ${data.status=="Delivered" ? "bg-caribbeangreen-400  text-caribbeangreen-700" : "text-pink-800  bg-pink-400"} font-bold  mx:text-sm text-[10px] h-full text-center mx:px-10 px-0 md:py-1  rounded-xl`}>{data.status}</p>
                         </li>
                     </>
                     )

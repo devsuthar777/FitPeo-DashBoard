@@ -18,7 +18,7 @@ const CustomerFeedback = () => {
                         array.map((data,index)=> <FaStar className={`${index==4 ? 'text-white' : 'text-brown-300'}`}/>)
                     }
                     </div>
-                    <p className='text-richblack-500 py-2 text-sm'>{comments[index]}</p>
+                    <p className='text-richblack-500 py-2 text-sm font-semibold'>{comments[index]}</p>
                 </div>
                 <div className='md:h-[2px] h-full md:w-[95%] w-[5%] bg-richblack-500 mx-auto'></div>
                 </>

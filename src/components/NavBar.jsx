@@ -11,12 +11,12 @@ const NavBar = () => {
     <div className='w-full flex md:h-16 h-24  '>
         <div className='md:w-[5%] W-[20%] h-full bg-richblack-700 flex items-center justify-center  '><GrRestaurant className='text-blue-200 md:text-3xl text-5xl   '/></div>
         <div className='w-[95%] flex bg-richblack-700 items-center justify-between sm:flex-row flex-col gap-2 py-3'>
-            <div className='flex bg-richblack-500 h-8 items-center  w-[90%] my-auto rounded-md gap-2    sm:w-auto '>
+            <div className='flex bg-richblack-500 h-8 items-center   w-[90%] my-auto rounded-md gap-2    sm:w-auto '>
                 <CiSearch className='text-white my-2  text-2xl ml-2'/>
                 <input className='bg-transparent py-3 outline-none text-richblack-200 w-52' placeholder='Search'></input>
             </div>
-            <div className='flex items-center gap-6 mr-3'>
-            <ul className='flex gap-3  ' >
+            <div className='flex items-center justify-between md:gap-6  mr-3 md:w-auto w-[90%] mx-auto ml-3 '>
+            <ul className='flex gap-6 md:gap-3 ' >
                 <li className='bg-richblack-500 py-1 px-1 rounded-full'><CiMail className='text-white text-xl' /></li>   
                 <li className='bg-richblack-500 py-1 px-1 rounded-full'><IoSettingsOutline className='text-white text-xl' /></li>
                 <li className='bg-richblack-500 py-1 px-1 rounded-full relative'>
